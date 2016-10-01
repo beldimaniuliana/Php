@@ -53,8 +53,8 @@ class Table_Controller extends CI_Controller {
     }
 
     public function update() {
-        $this->form_validation->set_rules('name', 'Name', 'required');
-        $this->form_validation->set_rules('desc', 'Description', 'required');
+        $this->form_validation->set_rules('ch_name', 'Name', 'required');
+        $this->form_validation->set_rules('ch_desc', 'Description', 'required');
 
         $this->form_validation->set_message('required', "The New %s is required");
 

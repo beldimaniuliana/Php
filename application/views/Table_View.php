@@ -41,12 +41,12 @@
 
     <?php
         echo form_open(base_url()."table_controller/insert");
-            echo form_label("Name");
+            echo form_label("Name: ");
             echo form_input(array("id" => "name", "name" => "name", "placeholder" => "Test Name Here"));
 
             echo "<br><br>";
 
-            echo form_label("Description");
+            echo form_label("Description: ");
             echo form_input(array("id" => "desc", "name" => "desc", "placeholder" => "Test Description Here"));
 
             echo "<br><br>";
