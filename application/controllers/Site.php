@@ -14,7 +14,7 @@ class Site extends CI_Controller {
            show_404();
         }
 
-        $data['title'] = ucfirst($page); //Capitalize the first letter
+        $data['title'] = ucfirst(lang($page)); //Capitalize the first letter
 
         $this->load->view("templates/header", $data);
         $this->load->view("templates/menu", $data);

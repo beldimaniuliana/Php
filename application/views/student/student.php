@@ -4,12 +4,12 @@
     <?php   echo $students_item['first_name'];  ?>
     <?php   echo $students_item['last_name'];  ?>
     <?php   echo $students_item['grade'];  ?>
-    <?php   echo '<a href='.base_url().'student_controller/view/'.$students_item['id_reg'].">View</a>"; ?>
+    <?php   echo '<a href='.base_url().'student_controller/view/'.$students_item['id_reg'].">".lang('details')."</a>"; ?>
     <?php   echo "<br>";    ?>
 <?php } ?>
 
 <br>
-<a href="http://localhost/php/index.php/student_controller/insert_student">Insert new student</a>
+<a href="http://localhost/php/index.php/student_controller/insert_student"><?php echo lang('insert_submit')?></a>
 
 <br><br>
 

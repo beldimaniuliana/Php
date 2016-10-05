@@ -10,7 +10,7 @@ class Student_Controller extends CI_Controller {
 
     public function index() {
         $data['students'] = $this->Student_Model->get_students();
-        $data['title'] = "Students";
+        $data['title'] = lang('menu_student');
 
         $this->load->view('templates/header', $data);
         $this->load->view("templates/menu", $data);

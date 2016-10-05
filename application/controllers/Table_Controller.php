@@ -12,7 +12,11 @@ class Table_Controller extends CI_Controller {
     }
 
     public function index() {
+        $data['title'] = lang('menu_table');
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/menu', $data);
         $this->select();
+        $this->load->view('templates/footer', $data);
     }
 
     public function select() {
