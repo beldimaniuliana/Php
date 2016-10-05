@@ -52,4 +52,14 @@ class Student_Controller extends CI_Controller {
             $this->index();
         }
     }
+
+    public function delete_student($id) {
+        //$this->Student_Model->delete_student($id);
+        redirect($this->agent->referrer());
+    }
+
+    public function update_student($id) {
+        //$this->Student_Model->update_student($id, $data);
+        redirect($this->agent->referrer());
+    }
 }

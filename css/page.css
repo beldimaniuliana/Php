@@ -1,0 +1,61 @@
+
+* {
+    padding: 0px auto;
+    margin: 0px auto;
+
+}
+
+#page {
+    background: #FDFEFE;
+}
+
+#header {
+    height: 60px;
+    background: #EAEDED;
+}
+
+#footer {
+    height: 60px;
+    background: #EAEDED;
+}
+
+#menu {
+    background: #99A3A4;
+    height: 50px;
+}
+
+#menu ul {
+
+}
+
+#menu ul li{
+    display: inline;
+    padding: 20px;
+    font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table th, tr, td {
+    border: 1px solid black;
+    padding: 10px;
+}

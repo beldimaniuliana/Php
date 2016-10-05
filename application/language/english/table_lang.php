@@ -41,3 +41,9 @@ $lang['insert_last_name'] = 'Last Name';
 $lang['insert_grade'] = 'Grade';
 $lang['insert_details'] = 'Details';
 $lang['insert_id_reg'] = 'Id Registration';
+
+$lang['first_name'] = 'First Name';
+$lang['last_name'] = 'Last Name';
+$lang['grade'] = 'Grade';
+$lang['details'] = 'Details';
+$lang['id_reg'] = 'See details of student';

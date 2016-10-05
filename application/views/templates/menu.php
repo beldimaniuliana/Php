@@ -1,5 +1,5 @@
 
-    <nav>
+    <nav id="menu">
         <ul>
             <li><a href=<?php echo base_url();?>Site/view/home><?php echo lang('menu_home'); ?></a></li>
             <li><a href=<?php echo base_url();?>Site/view/about><?php echo lang('menu_about'); ?></a></li>
