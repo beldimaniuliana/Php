@@ -11,7 +11,9 @@
 
         <div id="login_page">
 
-            <div id="login_header"></div>
+            <div id="login_header">
+                <h1 style="text-align: center;">This is my test site</h1>
+            </div>
 
             <div id="login_main">
 
