@@ -7,7 +7,7 @@ class Site extends CI_Controller {
     }
 
     public function index($page = "home") {
-
+        $this->view($page);
     }
     public function view($page = "home") {
         if(! file_exists(APPPATH.'views/pages/'.$page.'.php')) {
@@ -20,5 +20,9 @@ class Site extends CI_Controller {
         $this->load->view("templates/menu", $data);
         $this->load->view("pages/".$page, $data);
         $this->load->view("templates/footer", $data);
+    }
+
+    public function ajax() {
+        $this->load->view('ajax');
     }
 }

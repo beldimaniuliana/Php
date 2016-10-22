@@ -8,6 +8,7 @@ class Auth extends CI_Controller {
     }
 
     public function index() {
+        //asdasdafsfa
         //verific daca e logat
             //daca da
                 //verific daca e admin
@@ -18,7 +19,7 @@ class Auth extends CI_Controller {
         //altfel trimit la pag de login
         $user = $this->session->userdata('user');
 
-        var_dump($user);die();
+        //var_dump($user);die();
         if(isset($user)){
             redirect(base_url() . "admin", "refresh");
         }
