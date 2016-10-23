@@ -54,7 +54,7 @@ $route['news/create'] = 'student_controller/insert_student';
 $route['student_controller/(:any)'] = 'student_controller/view/$1';
 $route['student_controller'] = 'student_controller';
 $route['(:any)'] = 'site/view/$1';*/
-$route['default_controller'] = 'site/view';
+$route['default_controller'] = 'auth';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

@@ -17,14 +17,14 @@ class Admin extends CI_Controller {
     public function page($page = "") {
         //var_dump($page);die();
 
-        if(! file_exists(APPPATH.'views/admin/template/'.$page.'.php')) {
+        if(! file_exists(APPPATH.'views/admin/'.$page.'.php')) {
             show_404();
         }
 
         $data['title'] = $page;
 
         $this->load->view("admin/template/admin_header", $data);
-        $this->load->view("admin/template/".$page);
+        $this->load->view("admin/".$page);
         $this->load->view("admin/template/admin_footer");
     }
 }

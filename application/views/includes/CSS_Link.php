@@ -1,0 +1,1 @@
+<link rel = "stylesheet" type = "text/css" href = "http://localhost/php/css/page.css">

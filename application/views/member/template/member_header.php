@@ -24,7 +24,6 @@
             <br>
 
             <a href="<?php echo base_url()."auth/unset_session_data" ?>">Logout</a>
-
         </div>
 
-        <div id="admin_main">
+        <div id="member_main">

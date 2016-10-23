@@ -6,6 +6,35 @@
 }
 
 #page {
+    background-color: #FDF5E6;
+    height: 100%;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    background: #D2B48C;
+    clear: both;
+}
+
+#footer {
+    background: #D2B48C;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+
+/*
+* {
+    padding: 0px auto;
+    margin: 0px auto;
+
+}
+
+#page {
     background: #FDFEFE;
 }
 
@@ -59,3 +88,4 @@ table th, tr, td {
     border: 1px solid black;
     padding: 10px;
 }
+*/
